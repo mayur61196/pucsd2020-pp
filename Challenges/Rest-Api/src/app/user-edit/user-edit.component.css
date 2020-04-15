@@ -1,0 +1,39 @@
+.close{
+    color:white;
+ 
+}
+.update{
+    padding: 41px 80px 82px 97px;
+    background-image: url("../images/imdages.jpeg");
+height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin-left: 195px;
+}
+body{
+    font-family: serif;
+    font-size: 18px;
+   
+}
+.bg {
+  /* The image used */
+  background-image: url("../images/imdages.jpeg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+
+h5{
+        font-family: serif;
+        color: white;
+    }

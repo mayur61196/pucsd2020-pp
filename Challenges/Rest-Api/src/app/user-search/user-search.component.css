@@ -1,0 +1,56 @@
+.close{
+    color:white;
+
+}
+.bg {
+  /* The image used */
+  background-image: url("../images/images.jpeg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h2{
+        text-align: center;
+        font-family: serif;
+        color: white;
+    }
+.search{
+    padding: 41px 80px 82px 97px;
+    background-color:#004eff17;
+    margin-left: 100px
+}
+body{
+    font-family: serif;
+    font-size: 15px;
+   
+}
+td{
+    color:white;
+    font-size: 15px;
+    text-align: center;
+  }
+th{
+    text-align: center;
+}
+thead{
+    font-size: 20px;
+    color:white;
+}
+table{
+    width: 100%;
+padding-top: 16px;
+/* max-width: 119%;
+*/
+}
+.searchId{
+        width: 50% ;
+        height: 38px;
+} 
+.get{
+    padding: 10px;
+
+}
+.hidetext { -webkit-text-security: disc; /* Default */ }

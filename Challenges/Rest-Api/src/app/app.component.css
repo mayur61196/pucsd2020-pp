@@ -1,0 +1,63 @@
+
+.bg {
+  /* The image used */
+  background-image: url("images/maxresdefault.jpg");
+  /* Full height */
+  height: 100vh;
+    padding: 15px 0px;
+}
+
+
+header{
+    font-size: 35px;
+   
+   
+    color: beige;
+   
+    font-weight: 500;
+    margin-left: 23px;;
+
+
+    /* background: linear-gradient(to top, rgba(0,253,255,1) 0%,rgba(9,102,121,1) 29%, rgba(0,36,36,1) 150%)} */
+}
+.forms{
+    margin-left: -14px;
+background-image: url("/images/image.jpeg");
+  /* Full height */
+ }
+.userList{
+    background: linear-gradient(to top, rgba(0,253,255,1) 0%,rgba(9,102,121,1) 29%, rgba(0,36,36,1) 150%);
+    height: 100vh;
+    padding: 15px 0px;
+}
+
+header:before {
+    content: '';
+    position: absolute;
+    background: #fff;
+    height: 2px;
+    top: 55px;
+    width: 96%;
+    left: 23px;
+    right: 0;
+    bottom: 0;
+}
+header:after {
+    content: '';
+    position: absolute;
+    background: olivedrab;
+    height: 5px;
+    top: 53px;
+    width: 15%;
+    left: 23px;
+    right: 0;
+    bottom: 0;
+}
+.bg1 {
+  /* The image used */
+  background-image: url("/images/image.jpeg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  
+}

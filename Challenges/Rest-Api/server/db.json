@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "firstName": "Mayur",
+      "lastName": "Shinde",
+      "email": "ms@gmail.com",
+      "phone": "9011350305",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "firstName": "Prince",
+      "lastName": "Kumar",
+      "email": "pk@gmail.com",
+      "phone": "9881332338",
+      "password": "232323",
+      "id": 2
+    },
+    {
+      "firstName": "Ashwin",
+      "lastName": "Shelke",
+      "email": "as@gmail.com",
+      "phone": "8605387688",
+      "password": "21323132",
+      "id": 3
+    },
+    {
+      "firstName": "Omkar",
+      "lastName": "Shirke",
+      "email": "os@gmail.com",
+      "phone": "9465235643",
+      "password": "dsfsfsfa",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+
+
+
+  <!-- Show it when there is no user -->
+  <div class="no-data text-center" *ngIf="User.length == 0">
+    <p>There is no user added yet!</p>
+
+    <button class="btn btn-success btn-md   btnAddUser" routerLink="/create-user">Add User</button>
+  </div>
+
+  <!-- Users list table, it hides when there is no user -->
+  <div *ngIf="User.length !== 0">
+    <h2>User Details</h2>
+
+    <div class="col-md-12">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th scope="col">User Id</th>
+            <th scope="col">First Name</th>
+             <th scope="col">Last Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Phone</th>
+    
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of User">
+            <td>{{user.id}}</td>
+            <td>{{user.firstName}}</td>
+            <td>{{user.lastName}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.phone}}</td>
+            <td>
+               <button class="btn btn-success btn-md " routerLink="/user-edit/{User.id}}">Update</button>&nbsp;
+<button class="btn btn-success btn-md " (click)=" deleteUser(user.id)">Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+<button class="btn btn-success btn-md   btnAddUser" routerLink="/create-user">Add User</button>
+  <button class="btn btn-success btn-md btnsearchUser " routerLink="/user-search">Search User</button>
+  
+  </div>
+
+  
+
