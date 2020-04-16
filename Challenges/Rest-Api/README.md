@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
+## JASON server
+
+Install JSON server in our project, run the following command in Angular CLI.
+
+npm i json-server --save
+
+After that run the following command to run the JSON server.
+
+json-server --watch server/db.json
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
