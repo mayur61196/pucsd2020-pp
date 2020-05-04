@@ -78,4 +78,16 @@ CREATE TABLE IF NOT EXISTS file_permission(
        REFERENCES permission(permission_id)
 )
 
+CREATE TABLE IF NOT EXISTS folder_permission(
+    user_id             INT,
+    folder_id           INT,
+    permission_id       INT,
+    PRIMARY KEY(user_id,folder_id),
+    FOREIGN KEY(user_id) 
+       REFERENCES user(user_id),
+    FOREIGN KEY(folder_id) 
+       REFERENCES folder(folder_id),
+    FOREIGN KEY(permission_id) 
+       REFERENCES permission(permission_id)
+)
 
