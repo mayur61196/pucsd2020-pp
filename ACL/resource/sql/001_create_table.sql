@@ -1,4 +1,4 @@
-USE ACL;
+USE  ACL;
 
 CREATE TABLE IF NOT EXISTS user(
     user_id             INT         PRIMARY KEY,
